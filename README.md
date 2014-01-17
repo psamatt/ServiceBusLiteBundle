@@ -2,6 +2,17 @@
 
 Bundle that integrates [Service Bus](https://github.com/psamatt/ServiceBusLite) into Symfony2 through a bundle.
 
+### Installation using Composer
+
+This bundle can be installed using composer by adding the following in the `require` section of your `composer.json` file:
+
+```
+    "require": {
+        ...
+        "psamatt/service-bus-lite-bundle": "*"
+    },
+```
+
 ### How to use
 
 Create Query or Command Handlers that implement `ServiceBus\IQueryHandler` or `ServiceBus\ICommandHandler` respectively such as:
