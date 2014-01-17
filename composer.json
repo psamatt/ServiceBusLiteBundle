@@ -1,0 +1,25 @@
+{
+    "name": "psamatt/service-bus-lite-bundle",
+    "type": "symfony-bundle",
+    "description": "ServiceBus bundle implementation in Symfomy2",
+    "keywords": ["servicebus", "symfony2", "bundle"],
+    "homepage": "http://github.com/psamatt/ServiceBusLiteBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Goodwin",
+            "email": "matt.goodwin491@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "2.*",
+        "psamatt/service-bus-lite": "*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Psamatt\\ServiceBusLiteBundle": ""
+        }
+    }
+}

@@ -1,0 +1,9 @@
+services:
+    ServiceBus.handler:
+        class: ServiceBus\ServiceBusHandlerResolver
+        public: false
+
+    ServiceBus.mediator:
+        class: ServiceBus\Mediator
+        arguments: 
+            [@ServiceBus.handler]
