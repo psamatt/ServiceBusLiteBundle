@@ -1,10 +1,10 @@
 <?php
 
-namespace Psamatt\ServiceBusBundle;
+namespace Psamatt\ServiceBusLiteBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class PsamattServiceBusBundle extends Bundle
+class PsamattServiceBusLiteBundle extends Bundle
 {
     public function build(\Symfony\Component\DependencyInjection\ContainerBuilder $container)
     {

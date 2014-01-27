@@ -1,6 +1,6 @@
 <?php
 
-namespace Psamatt\ServiceBusBundle\DependencyInjection\Compiler;
+namespace Psamatt\ServiceBusLiteBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
