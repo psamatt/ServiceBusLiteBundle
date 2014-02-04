@@ -13,6 +13,24 @@ This bundle can be installed using composer by adding the following in the `requ
     },
 ```
 
+Then, enable the bundle in the AppKernel:
+
+```php
+
+<?php
+// app/AppKernel.php
+
+public function registerBundles()
+{
+    $bundles = array(
+        // ...
+        new Psamatt\ServiceBusLiteBundle\PsamattServiceBusLiteBundle(),
+    );
+}
+
+```
+
+
 ### How to use
 
 Create Query or Command Handlers that implement `ServiceBus\IQueryHandler` or `ServiceBus\ICommandHandler` respectively such as:
